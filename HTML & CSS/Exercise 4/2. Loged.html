@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms Review</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <section>
+      <hr />
+      <img
+        src="./img/burger-svgrepo-com.svg"
+        alt="Hamburguesita eono"
+        width="10%"
+      />
+      <br />
+      <hr />
+      <h2>Create a burguer!</h2>
+      <br />
+      <label for="Protein"
+        >What type of protein would you like?
+        <input type="text" />
+      </label>
+      <hr />
+    </section>
+
+    <section>
+      <label for="Patties"
+        >How many patties would you like?
+        <input type="number" name="patties" id="patties" min="0" max="10" />
+      </label>
+      <hr />
+    </section>
+
+    <section>
+      <label for="Cooked-Pattie"
+        >How do you want your pattie cooked? Rare
+        <input
+          type="range"
+          name="cooked"
+          id="cooked"
+          min="1"
+          max="5"
+          default="3"
+        />
+        Well-Done
+      </label>
+      <hr />
+    </section>
+
+    <section>
+      <label for="toppings">
+        <input type="checkbox" /> Lettuce <input type="checkbox" /> Tomato
+        <input type="checkbox" /> Onion
+      </label>
+      <hr />
+    </section>
+
+    <section>
+      <label for="Cheese"
+        >Would you like to add cheese?<br />
+        <input type="radio" name="Yes" id="Yes" />Yes
+        <input type="radio" name="No" id="no" />No
+      </label>
+      <hr />
+    </section>
+
+    <section>
+      <label for="Bun"
+        >What type of bun would you like?
+        <select name="Bun">
+          <option value="Sesame">Sesame</option>
+          <option value="Potato">Potato</option>
+          <option value="Pretzel">Pretzel</option>
+        </select>
+      </label>
+      <hr />
+    </section>
+
+    <section>
+      <label for="sauce">What type of sauce would you like?</label>
+      <input type="text" list="sauce" name="sauce" />
+      <datalist id="sauce">
+        <option>Ketchup</option>
+        <option>Mayo</option>
+        <option>Mustard</option>
+      </datalist>
+    </section>
+    <hr />
+
+    <section>
+      Anything else you weant to add?<br />
+      <textarea name="More" id="More" cols="30" rows="5"></textarea>
+    </section>
+    <hr />
+
+    <section>
+      <button>Submit</button>
+    </section>
+  </body>
+</html>
