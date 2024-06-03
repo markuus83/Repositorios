@@ -1,0 +1,29 @@
+@import url("https://fonts.cdnfonts.com/css/vina-sans");
+@import url("https://fonts.cdnfonts.com/css/karla");
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Vina+Sans&display=swap");
+
+header,
+footer {
+  background-color: #6f3a1b;
+  text-align: center;
+}
+
+* {
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  display: flexbox;
+}
+
+article {
+  background-color: #1b506f;
+}
+
+img {
+  max-width: 200px;
+}
