@@ -1,18 +1,44 @@
 * {
-  background-color: #896bee;
-  font-family: Inter, 'Roboto';
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  color: #6beeca;
-  text-align: center;
-  font-size: 30px;
+body {
+  max-width: 300px;
+  display: flexbox;
+  justify-content: center;
+}
+
+article {
+  background-color: mediumpurple;
+  padding: 40px;
 }
 
 img {
-    max-width: 200px;
-    border:5px solid aquamarine;
-    border-radius:5px;
+  border: 5px solid aquamarine;
+  border-radius: 5px;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@800&family=Roboto:wght@500&display=swap);
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: aquamarine;
+  font-size: 60px;
+}
+
+header {
+  display: flexbox;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: aquamarine;
+  font-size: 10px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
