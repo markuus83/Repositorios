@@ -1,0 +1,59 @@
+article {
+  border: 6px solid #b34301;
+  border-radius: 3px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+body {
+  background-color: mediumpurple;
+  display: flex;
+  justify-content: center;
+}
+
+img:nth-child(2){
+  border: 6px solid #b34301;
+  border-radius: 3px;
+  height: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 100%;
+
+}
+
+ul{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
+img{
+    height: 40px;
+    border: solid black;
+    border-radius: 10px ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: '\2022'; 
+    color: transparent;
+    margin-right: 10px; 
+}
+
+p{
+    text-align: center;
+}
+
+span{
+    color: #b34301;
+}
+
+
+p,span{
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
