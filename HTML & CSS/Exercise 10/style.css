@@ -1,0 +1,65 @@
+article {
+  border: 8px solid #b34301;
+  border-radius: 3px;
+  padding: 30px;
+  padding-left: 20px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+img:nth-child(2) {
+  border: 8px solid #b34301;
+  border-radius: 3px;
+  height: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 60px;
+  border: solid black;
+  border-radius: 10px;
+  display: flex;
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: transparent;
+  margin-right: 10px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+span {
+  color: #b34301;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+nav:nth-child(2) {
+    
+}
+
+h1 {
+  display: flex;
+  font-size: 40px;
+}
+
