@@ -1,44 +1,80 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+@import url("https://fonts.cdnfonts.com/css/vina-sans");
+@import url("https://fonts.cdnfonts.com/css/karla");
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Vina+Sans&display=swap");
+
+header,
+footer {
+  background-color: #6f3a1b;
+  text-align: center;
+  padding: 20px;
 }
 
-body {
-  max-width: 300px;
-  display: flexbox;
+* {
+  color: whitesmoke;
+  margin: 0;
+}
+
+header{
+  height: 20%;
+  display: flex;
   justify-content: center;
+  align-items:center ;
+  font-size: 2cqh;
+}
+
+footer{
+
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  height:10%;
+  padding: 50px;
+  letter-spacing: 2px;
+  position: fixed;
+  bottom: 0;
+  left: 0 ;
+  right: 0;
+} 
+
+h2 {
+  font-family: "Karla", sans-serif;
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 article {
-  background-color: mediumpurple;
-  padding: 40px;
+  background-color: #1b506f;
+  margin: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
 
 img {
-  border: 5px solid aquamarine;
-  border-radius: 5px;
   max-width: 200px;
-  display: flex;
-  justify-content: center;
+  border-radius: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+h1{
+  font-family: 'Vina Sans', sans-serif;
+  letter-spacing: 3px;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  color: aquamarine;
-  font-size: 60px;
-}
-
-header {
-  display: flexbox;
-  justify-content: center;
-}
-
-p {
-  display: flex;
-  justify-content: center;
-  color: aquamarine;
-  font-size: 10px;
-  font-weight: bolder;
-  letter-spacing: 2px;
+html,body{
+  height: 100%;
 }
