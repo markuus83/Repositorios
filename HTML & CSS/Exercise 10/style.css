@@ -8,6 +8,7 @@ article {
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 img:nth-child(2) {
@@ -55,11 +56,10 @@ span {
 }
 
 nav:nth-child(2) {
-    
+    opacity: 0.0;
 }
 
 h1 {
   display: flex;
   font-size: 40px;
 }
-
