@@ -1,0 +1,17 @@
+<customer>
+
+    <name>
+        <first>Sherlock</first>
+        <middle></middle>
+        <last>Holmes</last>
+    </name>
+
+    <address>
+        <street>221b Baker Street</street>
+        <city>London</city>
+        <state></state>
+        <country>England</country>
+        <postalcode>W1U</postalcode>
+    </address>
+    
+</customer>

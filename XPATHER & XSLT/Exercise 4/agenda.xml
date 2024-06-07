@@ -1,0 +1,104 @@
+<agenda>
+
+    <owner>
+        <identifiers>
+            <first_name>Alan</first_name>
+            <surname>López Tubío</surname>
+        </identifiers>
+
+        <address>
+            <street>Liberdade 13, 6F</street>
+            <locality>Vigo</locality>
+            <postal_code>36200</postal_code>
+        </address>
+
+        <phones>
+            <mobile>686898765</mobile>
+            <home>986124567</home>
+            <work>628983456</work>
+        </phones>
+    </owner>
+
+    <contacts>
+
+        <person id="p01">
+            <identifiers>
+                <first_name>Iago</first_name>
+                <surname>López Pérez</surname>
+            </identifiers>
+            <address>
+                <street>Ferreiría 24, 6B</street>
+                <locality>Lugo</locality>
+                <postal_code>27004</postal_code>
+            </address>
+            <phones>
+                <mobile>670123123</mobile>
+            </phones>
+        </person>
+
+        <person id="p02">
+            <identifiers>
+                <first_name>Roberto</first_name>
+                <surname>Gutiérrez Ínsua</surname>
+            </identifiers>
+
+            <address>
+                <street>O Porco de Pe 4, 2F</street>
+                <locality>Ourense</locality>
+                <postal_code>32004</postal_code>
+            </address>
+
+            <phones>
+                <mobile>970987456</mobile>
+                <home>982333323</home>
+            </phones>
+        </person>
+
+        <person id="p03">
+            <identifiers>
+                <first_name>Inés</first_name>
+                <surname>Sánchez Ambroa</surname>
+            </identifiers>
+
+            <address>
+                <street>Sinceridade 10, sn</street>
+                <locality>Pontevedra</locality>
+                <postal_code>36007</postal_code>
+            </address>
+
+            <phones>
+                <mobile>697564343</mobile>
+                <home>986987974</home>
+                <work>677899234</work>
+            </phones>
+        </person>
+    </contacts>
+</agenda>
+
+<!-- 
+
+Name of the owner of the agenda
+
+    //identifiers/first_name/text()
+
+Home phone number of the owner
+
+    //owner/phones/home
+
+Name and surnames of the contacts in the agenda
+
+    //contacts/person/identifiers/(first_name | surname)
+
+Name and identifier of each contact
+
+    //contacts/person/identifiers/(first_name | surname), //contacts/person/@id
+
+Details of the contact with identifier p02
+
+    //contacts/person[@id='p02']
+
+Identifiers of the contacts who have a mobile phone
+
+    //contacts/person/phones/mobile/text()/../../../@id
+
+-->

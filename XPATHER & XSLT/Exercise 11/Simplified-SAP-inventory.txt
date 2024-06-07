@@ -1,0 +1,1946 @@
+
+     id1 titleCaledonian Mercury date
+            1811
+            08
+            26
+        
+     id2 titleGlasgow Advertiser date
+            1789
+            01
+            05
+        
+     id3 titleGlasgow Advertiser date
+            1789
+            01
+            05
+        
+     id4 titleGlasgow Advertiser date
+            1789
+            07
+            13
+        
+     id5 titleGlasgow Advertiser date
+            1789
+            07
+            20
+        
+     id6 titleGlasgow Advertiser date
+            1789
+            07
+            20
+        
+     id7 titleGlasgow Advertiser date
+            1789
+            07
+            20
+        
+     id8 titleGlasgow Advertiser date
+            1789
+            07
+            06
+        
+     id9 titleGlasgow Advertiser date
+            1789
+            08
+            21
+        
+     id10 titleGlasgow Advertiser date
+            1789
+            08
+            21
+        
+     id11 titleGlasgow Advertiser date
+            1789
+            08
+            24
+        
+     id12 titleGlasgow Advertiser date
+            1789
+            08
+            24
+        
+     id13 titleGlasgow Advertiser date
+            1789
+            08
+            28
+        
+     id14 titleGlasgow Advertiser date
+            1789
+            08
+            28
+        
+     id15 titleGlasgow Advertiser date
+            1789
+            08
+            03
+        
+     id16 titleGlasgow Advertiser date
+            1789
+            08
+            31
+        
+     id17 titleGlasgow Advertiser date
+            1789
+            08
+            07
+        
+     id18 titleGlasgow Advertiser date
+            1789
+            09
+            21
+        
+     id19 titleGlasgow Advertiser date
+            1789
+            10
+            02
+        
+     id20 titleGlasgow Advertiser date
+            1789
+            10
+            09
+        
+     id21 titleGlasgow Advertiser date
+            1789
+            10
+            09
+        
+     id22 titleGlasgow Advertiser date
+            1789
+            10
+            09
+        
+     id23 titleGlasgow Advertiser date
+            1789
+            10
+            09
+        
+     id24 titleGlasgow Advertiser date
+            1789
+            10
+            09
+        
+     id25 titleGlasgow Advertiser date
+            1789
+            11
+            20
+        
+     id26 titleGlasgow Advertiser date
+            1789
+            11
+            23
+        
+     id28 titleGlasgow Advertiser date
+            1789
+            11
+            23
+        
+     id29 titleGlasgow Advertiser date
+            1789
+            11
+            23
+        
+     id31 titleGlasgow Advertiser date
+            1789
+            11
+            27
+        
+     id32 titleGlasgow Advertiser date
+            1789
+            12
+            11
+        
+     id33 titleGlasgow Advertiser date
+            1789
+            12
+            11
+        
+     id34 titleGlasgow Advertiser date
+            1789
+            12
+            11
+        
+     id35 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id36 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id37 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id38 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id40 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id41 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id42 titleGlasgow Advertiser date
+            1789
+            12
+            14
+        
+     id43 titleGlasgow Advertiser date
+            1789
+            12
+            18
+        
+     id44 titleGlasgow Advertiser date
+            1789
+            12
+            18
+        
+     id45 titleGlasgow Advertiser date
+            1789
+            12
+            18
+        
+     id46 titleGlasgow Advertiser date
+            1789
+            12
+            18
+        
+     id47 titleGlasgow Advertiser date
+            1789
+            12
+            18
+        
+     id48 titleGlasgow Advertiser date
+            1789
+            12
+            18
+        
+     id49 titleGlasgow Advertiser date
+            1789
+            12
+            21
+        
+     id50 titleGlasgow Advertiser date
+            1789
+            12
+            21
+        
+     id51 titleGlasgow Advertiser date
+            1789
+            12
+            25
+        
+     id52 titleGlasgow Advertiser date
+            1789
+            12
+            25
+        
+     id53 titleGlasgow Advertiser date
+            1789
+            12
+            04
+        
+     id54 titleGlasgow Advertiser date
+            1789
+            12
+            04
+        
+     id55 titleGlasgow Advertiser date
+            1789
+            12
+            07
+        
+     id56 titleGlasgow Advertiser date
+            1789
+            12
+            07
+        
+     id57 titleGlasgow Advertiser date
+            1789
+            12
+            07
+        
+     id58 titleGlasgow Advertiser date
+            1789
+            12
+            07
+        
+     id59 titleGlasgow Advertiser date
+            1790
+            01
+            01
+        
+     id60 titleGlasgow Advertiser date
+            1790
+            01
+            04
+        
+     id61 titleGlasgow Advertiser date
+            1790
+            01
+            04
+        
+     id62 titleGlasgow Advertiser date
+            1790
+            01
+            04
+        
+     id63 titleGlasgow Advertiser date
+            1790
+            01
+            04
+        
+     id64 titleGlasgow Advertiser date
+            1790
+            04
+            16
+        
+     id65 titleGlasgow Advertiser date
+            1790
+            07
+            12
+        
+     id67 titleGlasgow Advertiser date
+            1790
+            07
+            12
+        
+     id68 titleGlasgow Advertiser date
+            1790
+            07
+            09
+        
+     id69 titleGlasgow Advertiser date
+            1790
+            08
+            16
+        
+     id70 titleGlasgow Advertiser date
+            1790
+            09
+            17
+        
+     id71 titleGlasgow Advertiser date
+            1790
+            10
+            04
+        
+     id72 titleGlasgow Advertiser date
+            1790
+            11
+            15
+        
+     id73 titleGlasgow Advertiser date
+            1790
+            11
+            19
+        
+     id74 titleGlasgow Advertiser date
+            1790
+            11
+            19
+        
+     id76 titleGlasgow Advertiser date
+            1790
+            11
+            22
+        
+     id78 titleGlasgow Advertiser date
+            1790
+            11
+            26
+        
+     id80 titleGlasgow Advertiser date
+            1790
+            11
+            26
+        
+     id81 titleGlasgow Advertiser date
+            1790
+            11
+            29
+        
+     id82 titleGlasgow Advertiser date
+            1790
+            11
+            29
+        
+     id84 titleGlasgow Advertiser date
+            1790
+            11
+            08
+        
+     id85 titleGlasgow Advertiser date
+            1790
+            12
+            13
+        
+     id86 titleGlasgow Advertiser date
+            1790
+            02
+            01
+        
+     id87 titleGlasgow Advertiser date
+            1791
+            05
+            23
+        
+     id89 titleGlasgow Advertiser date
+            1792
+            04
+            23
+        
+     id90 titleGlasgow Advertiser date
+            1792
+            04
+            23
+        
+     id91 titleGlasgow Advertiser date
+            1792
+            08
+            06
+        
+     id92 titleGlasgow Advertiser date
+            1793
+            01
+            14
+        
+     id93 titleGlasgow Advertiser date
+            1793
+            07
+            22
+        
+     id94 titleGlasgow Advertiser date
+            1793
+            07
+            22
+        
+     id95 titleGlasgow Advertiser date
+            1793
+            07
+            29
+        
+     id96 titleGlasgow Advertiser date
+            1793
+            10
+            07
+        
+     id99 titleGlasgow Advertiser date
+            1794
+            02
+            10
+        
+     id100 titleGlasgow Advertiser date
+            1794
+            02
+            14
+        
+     id101 titleGlasgow Advertiser date
+            1794
+            02
+            07
+        
+     id102 titleCaledonian Mercury date
+            1802
+            07
+            01
+        
+     id103 titleCaledonian Mercury date
+            1810
+            06
+            09
+        
+     id104 titleCaledonian Mercury date
+            1812
+            08
+            29
+        
+     id105 titleCaledonian Mercury date
+            1812
+            10
+            03
+        
+     id106 titleCaledonian Mercury date
+            1812
+            10
+            03
+        
+     id107 titleCaledonian Mercury date
+            1812
+            11
+            09
+        
+     id108 titleCaledonian Mercury date
+            1813
+            10
+            16
+        
+     id109 titleCaledonian Mercury date
+            1813
+            10
+            07
+        
+     id110 titleCaledonian Mercury date
+            1813
+            12
+            30
+        
+     id111 titleCaledonian Mercury date
+            1814
+            03
+            19
+        
+     id112 titleCaledonian Mercury date
+            1814
+            05
+            26
+        
+     id113 titleCaledonian Mercury date
+            1814
+            09
+            12
+        
+     id114 titleCaledonian Mercury date
+            1814
+            10
+            15
+        
+     id115 titleCaledonian Mercury date
+            1814
+            10
+            15
+        
+     id116 titleCaledonian Mercury date
+            1814
+            12
+            08
+        
+     id117 titleCaledonian Mercury date
+            1816
+            01
+            15
+        
+     id118 titleCaledonian Mercury date
+            1816
+            07
+            08
+        
+     id119 titleCaledonian Mercury date
+            1816
+            11
+            21
+        
+     id120 titleAberdeen Journal date
+            1816
+            12
+            16
+        
+     id121 titleCaledonian Mercury date
+            1817
+            07
+            21
+        
+     id122 titleCaledonian Mercury date
+            1818
+            01
+            01
+        
+     id123 titleCaledonian Mercury date
+            1818
+            01
+            19
+        
+     id124 titleCaledonian Mercury date
+            1818
+            01
+            19
+        
+     id125 titleCaledonian Mercury date
+            1818
+            01
+            19
+        
+     id126 titleAberdeen Journal date
+            1818
+            01
+            28
+        
+     id127 titleCaledonian Mercury date
+            1818
+            07
+            16
+        
+     id128 titleCaledonian Mercury date
+            1818
+            07
+            04
+        
+     id129 titleCaledonian Mercury date
+            1818
+            09
+            05
+        
+     id130 titleCaledonian Mercury date
+            1818
+            12
+            28
+        
+     id131 titleCaledonian Mercury date
+            1818
+            02
+            26
+        
+     id132 titleScotsman date
+            1818
+            02
+            28
+        
+     id133 titleAberdeen Journal date
+            1819
+            10
+            13
+        
+     id134 titleCaledonian Mercury date
+            1819
+            01
+            02
+        
+     id135 titleAberdeen Journal date
+            1819
+            01
+            20
+        
+     id136 titleCaledonian Mercury date
+            1819
+            01
+            04
+        
+     id137 titleCaledonian Mercury date
+            1819
+            03
+            29
+        
+     id138 titleAberdeen Journal date
+            1819
+            04
+            28
+        
+     id139 titleScotsman date
+            1819
+            05
+            01
+        
+     id140 titleAberdeen Journal date
+            1819
+            05
+            26
+        
+     id141 titleCaledonian Mercury date
+            1819
+            05
+            27
+        
+     id142 titleCaledonian Mercury date
+            1819
+            05
+            27
+        
+     id143 titleCaledonian Mercury date
+            1819
+            05
+            07
+        
+     id144 titleAberdeen Journal date
+            1819
+            06
+            02
+        
+     id145 titleCaledonian Mercury date
+            1819
+            06
+            28
+        
+     id146 titleCaledonian Mercury date
+            1819
+            06
+            28
+        
+     id147 titleCaledonian Mercury date
+            1819
+            07
+            22
+        
+     id148 titleAberdeen Journal date
+            1819
+            07
+            28
+        
+     id149 titleAberdeen Journal date
+            1819
+            07
+            28
+        
+     id150 titleAberdeen Journal date
+            1819
+            07
+            07
+        
+     id151 titleCaledonian Mercury date
+            1819
+            08
+            16
+        
+     id152 titleAberdeen Journal date
+            1819
+            08
+            25
+        
+     id153 titleAberdeen Journal date
+            1819
+            09
+            22
+        
+     id154 titleCaledonian Mercury date
+            1819
+            10
+            11
+        
+     id155 titleAberdeen Journal date
+            1819
+            10
+            27
+        
+     id156 titleAberdeen Journal date
+            1819
+            11
+            10
+        
+     id157 titleCaledonian Mercury date
+            1819
+            02
+            15
+        
+     id158 titleCaledonian Mercury date
+            1820
+            01
+            13
+        
+     id159 titleCaledonian Mercury date
+            1820
+            01
+            24
+        
+     id160 titleScotsman date
+            1820
+            01
+            29
+        
+     id161 titleScotsman date
+            1820
+            01
+            08
+        
+     id162 titleGlasgow Herald date
+            1820
+            04
+            24
+        
+     id163 titleCaledonian Mercury date
+            1820
+            04
+            24
+        
+     id164 titleScotsman date
+            1820
+            05
+            20
+        
+     id165 titleGlasgow Herald date
+            1820
+            05
+            22
+        
+     id166 titleCaledonian Mercury date
+            1820
+            06
+            17
+        
+     id167 titleCaledonian Mercury date
+            1820
+            07
+            01
+        
+     id168 titleAberdeen Journal date
+            1820
+            07
+            12
+        
+     id169 titleAberdeen Journal date
+            1820
+            07
+            12
+        
+     id170 titleAberdeen Journal date
+            1820
+            07
+            12
+        
+     id171 titleAberdeen Journal date
+            1820
+            07
+            19
+        
+     id172 titleAberdeen Journal date
+            1820
+            08
+            02
+        
+     id173 titleAberdeen Journal date
+            1821
+            01
+            17
+        
+     id174 titleScotsman date
+            1821
+            01
+            26
+        
+     id175 titleAberdeen Journal date
+            1821
+            01
+            31
+        
+     id176 titleAberdeen Journal date
+            1821
+            03
+            14
+        
+     id177 titleGlasgow Herald date
+            1821
+            03
+            30
+        
+     id178 titleCaledonian Mercury date
+            1821
+            05
+            03
+        
+     id179 titleScotsman date
+            1821
+            06
+            02
+        
+     id180 titleAberdeen Journal date
+            1821
+            06
+            27
+        
+     id181 titleCaledonian Mercury date
+            1821
+            06
+            09
+        
+     id182 titleCaledonian Mercury date
+            1821
+            07
+            16
+        
+     id183 titleAberdeen Journal date
+            1821
+            08
+            15
+        
+     id184 titleAberdeen Journal date
+            1821
+            10
+            17
+        
+     id185 titleAberdeen Journal date
+            1821
+            11
+            07
+        
+     id186 titleGlasgow Herald date
+            1821
+            02
+            05
+        
+     id187 titleGlasgow Herald date
+            1822
+            01
+            28
+        
+     id188 titleScotsman date
+            1822
+            10
+            19
+        
+     id189 titleScotsman date
+            1822
+            10
+            19
+        
+     id190 titleScotsman date
+            1823
+            06
+            14
+        
+     id191 titleScotsman date
+            1823
+            09
+            10
+        
+     id192 titleScotsman date
+            1823
+            09
+            03
+        
+     id193 titleScotsman date
+            1824
+            05
+            05
+        
+     id194 titleScotsman date
+            1824
+            01
+            21
+        
+     id195 titleScotsman date
+            1824
+            01
+            31
+        
+     id196 titleScotsman date
+            1824
+            03
+            27
+        
+     id197 titleScotsman date
+            1824
+            03
+            06
+        
+     id198 titleScotsman date
+            1824
+            04
+            03
+        
+     id199 titleScotsman date
+            1824
+            05
+            12
+        
+     id200 titleScotsman date
+            1824
+            06
+            09
+        
+     id201 titleScotsman date
+            1824
+            08
+            25
+        
+     id202 titleScotsman date
+            1824
+            02
+            11
+        
+     id203 titleScotsman date
+            1824
+            02
+            28
+        
+     id204 titleScotsman date
+            1825
+            10
+            19
+        
+     id205 titleScotsman date
+            1827
+            03
+            03
+        
+     id206 titleScotsman date
+            1828
+            04
+            02
+        
+     id207 titleScotsman date
+            1828
+            05
+            07
+        
+     id208 titleScotsman date
+            1828
+            06
+            25
+        
+     id209 titleScotsman date
+            1828
+            08
+            09
+        
+     id210 titleScotsman date
+            1828
+            12
+            24
+        
+     id211 titleScotsman date
+            1829
+            05
+            20
+        
+     id212 titleScotsman date
+            1829
+            06
+            10
+        
+     id213 titleScotsman date
+            1829
+            07
+            25
+        
+     id214 titleScotsman date
+            1829
+            08
+            19
+        
+     id215 titleScotsman date
+            1829
+            11
+            04
+        
+     id216 titleScotsman date
+            1830
+            04
+            24
+        
+     id217 titleScotsman date
+            1830
+            10
+            09
+        
+     id218 titleScotsman date
+            1830
+            11
+            10
+        
+     id219 titleScotsman date
+            1831
+            06
+            29
+        
+     id220 titleScotsman date
+            1831
+            06
+            04
+        
+     id221 titleScotsman date
+            1831
+            07
+            27
+        
+     id222 titleScotsman date
+            1831
+            12
+            17
+        
+     id223 titleScotsman date
+            1831
+            02
+            05
+        
+     id224 titleScotsman date
+            1832
+            03
+            03
+        
+     id225 titleScotsman date
+            1832
+            04
+            07
+        
+     id226 titleScotsman date
+            1832
+            10
+            13
+        
+     id227 titleScotsman date
+            1833
+            05
+            29
+        
+     id228 titleScotsman date
+            1833
+            06
+            29
+        
+     id229 titleScotsman date
+            1833
+            07
+            10
+        
+     id230 titleScotsman date
+            1833
+            08
+            03
+        
+     id231 titleScotsman date
+            1833
+            08
+            07
+        
+     id232 titleScotsman date
+            1833
+            09
+            25
+        
+     id233 titleScotsman date
+            1833
+            10
+            05
+        
+     id234 titleScotsman date
+            1833
+            12
+            07
+        
+     id235 titleScotsman date
+            1833
+            02
+            02
+        
+     id236 titleScotsman date
+            1833
+            02
+            02
+        
+     id237 titleScotsman date
+            1834
+            04
+            16
+        
+     id238 titleScotsman date
+            1834
+            06
+            18
+        
+     id239 titleScotsman date
+            1834
+            06
+            28
+        
+     id240 titleScotsman date
+            1834
+            07
+            02
+        
+     id241 titleScotsman date
+            1834
+            07
+            23
+        
+     id242 titleScotsman date
+            1834
+            07
+            05
+        
+     id243 titleScotsman date
+            1834
+            08
+            02
+        
+     id244 titleScotsman date
+            1834
+            09
+            24
+        
+     id245 titleScotsman date
+            1834
+            11
+            11
+        
+     id246 titleScotsman date
+            1834
+            11
+            08
+        
+     id247 titleScotsman date
+            1835
+            05
+            13
+        
+     id248 titleScotsman date
+            1835
+            07
+            08
+        
+     id249 titleScotsman date
+            1835
+            08
+            05
+        
+     id250 titleScotsman date
+            1835
+            08
+            05
+        
+     id251 titleScotsman date
+            1835
+            09
+            16
+        
+     id252 titleScotsman date
+            1835
+            11
+            21
+        
+     id253 titleScotsman date
+            1836
+            03
+            12
+        
+     id254 titleScotsman date
+            1836
+            03
+            12
+        
+     id255 titleScotsman date
+            1836
+            03
+            26
+        
+     id256 titleScotsman date
+            1836
+            04
+            16
+        
+     id257 titleScotsman date
+            1836
+            04
+            09
+        
+     id258 titleScotsman date
+            1836
+            05
+            18
+        
+     id259 titleScotsman date
+            1836
+            07
+            16
+        
+     id260 titleScotsman date
+            1836
+            07
+            16
+        
+     id261 titleScotsman date
+            1836
+            07
+            06
+        
+     id262 titleScotsman date
+            1836
+            08
+            10
+        
+     id263 titleScotsman date
+            1836
+            08
+            10
+        
+     id264 titleScotsman date
+            1836
+            10
+            26
+        
+     id265 titleScotsman date
+            1836
+            12
+            07
+        
+     id266 titleScotsman date
+            1837
+            05
+            10
+        
+     id267 titleScotsman date
+            1837
+            06
+            07
+        
+     id268 titleScotsman date
+            1837
+            07
+            01
+        
+     id269 titleScotsman date
+            1837
+            07
+            09
+        
+     id270 titleScotsman date
+            1837
+            11
+            22
+        
+     id271 titleScotsman date
+            1838
+            06
+            09
+        
+     id272 titleScotsman date
+            1838
+            09
+            22
+        
+     id273 titleScotsman date
+            1838
+            09
+            22
+        
+     id274 titleScotsman date
+            1838
+            11
+            24
+        
+     id275 titleScotsman date
+            1839
+            04
+            10
+        
+     id276 titleScotsman date
+            1839
+            04
+            03
+        
+     id277 titleScotsman date
+            1839
+            05
+            11
+        
+     id278 titleScotsman date
+            1839
+            06
+            05
+        
+     id279 titleScotsman date
+            1839
+            07
+            10
+        
+     id280 titleScotsman date
+            1839
+            07
+            24
+        
+     id281 titleScotsman date
+            1839
+            07
+            25
+        
+     id282 titleScotsman date
+            1839
+            07
+            27
+        
+     id283 titleScotsman date
+            1839
+            07
+            27
+        
+     id284 titleScotsman date
+            1839
+            07
+            06
+        
+     id285 titleScotsman date
+            1839
+            08
+            28
+        
+     id286 titleScotsman date
+            1839
+            09
+            11
+        
+     id287 titleScotsman date
+            1839
+            09
+            28
+        
+     id288 titleScotsman date
+            1839
+            11
+            23
+        
+     id289 titleScotsman date
+            1839
+            11
+            24
+        
+     id290 titleScotsman date
+            1840
+            04
+            18
+        
+     id291 titleScotsman date
+            1840
+            05
+            13
+        
+     id292 titleScotsman date
+            1840
+            07
+            29
+        
+     id293 titleScotsman date
+            1840
+            08
+            12
+        
+     id294 titleScotsman date
+            1840
+            08
+            15
+        
+     id295 titleScotsman date
+            1840
+            10
+            28
+        
+     id296 titleScotsman date
+            1840
+            12
+            05
+        
+     id297 titleScotsman date
+            1841
+            03
+            20
+        
+     id298 titleScotsman date
+            1841
+            03
+            31
+        
+     id299 titleScotsman date
+            1841
+            04
+            14
+        
+     id300 titleScotsman date
+            1841
+            04
+            07
+        
+     id301 titleScotsman date
+            1841
+            09
+            22
+        
+     id302 titleScotsman date
+            1841
+            10
+            09
+        
+     id304 titleScotsman date
+            1841
+            11
+            17
+        
+     id305 titleScotsman date
+            1841
+            11
+            24
+        
+     id306 titleScotsman date
+            1841
+            12
+            22
+        
+     id307 titleScotsman date
+            1841
+            12
+            25
+        
+     id308 titleScotsman date
+            1841
+            12
+            29
+        
+     id309 titleScotsman date
+            1841
+            12
+            29
+        
+     id310 titleScotsman date
+            1841
+            02
+            17
+        
+     id311 titleScotsman date
+            1842
+            03
+            19
+        
+     id312 titleScotsman date
+            1842
+            05
+            18
+        
+     id313 titleScotsman date
+            1842
+            02
+            05
+        
+     id314 titleGlasgow Advertiser date
+            1790
+            11
+            01
+        
+     id315 titleGlasgow Advertiser date
+            1790
+            11
+            01
+        
+     id316 titleGlasgow Advertiser date
+            1793
+            01
+            07
+        
+     id317 titleGlasgow Advertiser date
+            1792
+            04
+            27
+        
+     id318 titleGlasgow Advertiser date
+            1791
+            06
+            27
+        
+     id319 titleGlasgow Advertiser date
+            1791
+            05
+            02
+        
+     id320 titleGlasgow Advertiser date
+            1791
+            03
+            04
+        
+     id321 titleGlasgow Advertiser date
+            1790
+            11
+            05
+        
+     id322 titleGlasgow Advertiser date
+            1790
+            11
+            08
+        
+     id323 titleGlasgow Advertiser date
+            1791
+            11
+            08
+        
+     id324 titleGlasgow Advertiser date
+            1791
+            01
+            21
+        
+     id326 titleGlasgow Advertiser date
+            1790
+            09
+            20
+        
+     id327 titleGlasgow Advertiser date
+            1791
+            02
+            07
+        
+     id328 titleGlasgow Advertiser date
+            1791
+            01
+            21
+        
+     id329 titleGlasgow Advertiser date
+            1791
+            01
+            31
+        
+     id330 titleGlasgow Advertiser date
+            1791
+            01
+            07
+        
+     id331 titleGlasgow Advertiser date
+            1791
+            07
+            18
+        
+     id332 titleGlasgow Advertiser date
+            1792
+            06
+            25
+        
+     id333 titleGlasgow Advertiser date
+            1791
+            06
+            24
+        
+     id334 titleGlasgow Advertiser date
+            1791
+            01
+            10
+        
+     id335 titleGlasgow Advertiser date
+            1791
+            05
+            09
+        
+     id336 titleGlasgow Advertiser date
+            1791
+            05
+            13
+        
+     id337 titleGlasgow Advertiser date
+            1792
+            04
+            20
+        
+     id338 titleGlasgow Advertiser date
+            1792
+            04
+            23
+        
+     id339 titleGlasgow Advertiser date
+            1792
+            04
+            16
+        
+     id340 titleGlasgow Advertiser date
+            1790
+            06
+            21
+        
+     id341 titleGlasgow Advertiser date
+            1790
+            02
+            22
+        
+     id97 titleGlasgow Advertiser date
+            1794
+            09
+            12
+        
+     id342 titleGlasgow Advertiser date
+            1790
+            07
+            12
+        
+     id343 titleGlasgow Advertiser date
+            1790
+            06
+            18
+        
+     id344 titleGlasgow Advertiser date
+            1790
+            05
+            17
+        
+     id345 titleGlasgow Advertiser date
+            1790
+            05
+            24
+        
+     id346 titleGlasgow Advertiser date
+            1790
+            10
+            04
+        
+     id347 titleGlasgow Advertiser date
+            1791
+            02
+            21
+        
+     id348 titleGlasgow Advertiser date
+            1791
+            02
+            21
+        
+     id349 titleGlasgow Advertiser date
+            1791
+            07
+            25
+        
+     id351 titleGlasgow Advertiser date
+            1792
+            08
+            17
+        
+     id352 titleGlasgow Advertiser date
+            1792
+            08
+            20
+        
+     id353 titleGlasgow Advertiser date
+            1792
+            12
+            14
+        
+     id354 titleGlasgow Advertiser date
+            1792
+            10
+            08
+        
+     id356 titleGlasgow Advertiser date
+            1793
+            08
+            30
+        
+     id357 titleCaledonian Mercury date
+            1817
+            01
+            06
+        
+     id358 titleAberdeen Journal date
+            1817
+            01
+            08
+        
+     id359 titleSydney Gazette date
+            1815
+            11
+            08
+        
+     id360 titleMorning Chronicle date
+            1817
+            01
+            03
+        
+     id361 titleLondon Times date
+            1817
+            01
+            02
+        
+     id362 titleLondon Star date
+            1817
+            01
+            01
+        
+     id363 titleLondon Courier date
+            1817
+            01
+            02
+        
+     id364 titleLondon St James Chronicle and Evening Post date
+            1817
+            01
+            02
+        
+     id365 titleGlasgow Advertiser date
+            1793
+            08
+            30
+        
+     id366 titleGlasgow Advertiser date
+            1794
+            01
+            24
+        
+     id367 titleGlasgow Herald date
+            1822
+            01
+            28
+        
+     id368 titleGlasgow Advertiser date
+            1794
+            07
+            25
+        
+     id369 titleGlasgow Advertiser date
+            1793
+            01
+            11
+        
+     id370 titleGlasgow Advertiser date
+            1792
+            09
+            17
+        
+     id371 titleGlasgow Advertiser date
+            1793
+            12
+            13
+        
+     id372 titleGlasgow Advertiser date
+            1794
+            01
+            06
+        
+     id373 titleGlasgow Advertiser date
+            1794
+            01
+            27
+        
+     id374 titleGlasgow Advertiser date
+            1794
+            07
+            18
+        
+     id375 titleGlasgow Advertiser date
+            1794
+            07
+            21
+        
+     id376 titleGlasgow Advertiser date
+            1794
+            07
+            11
+        
+     id377 titleGlasgow Advertiser date
+            1794
+            07
+            18
+        
+     id378 titleGlasgow Advertiser date
+            1794
+            11
+            17
+        
+     id379 titleTrewman's Exeter Flying Post date
+            1810
+            01
+            11
+        
+     id380 titleExaminer date
+            1810
+            01
+            17
+        
+     id381 titleMorning Chronicle date
+            1810
+            01
+            06
+        
+     id382 titleGlasgow Advertiser date
+            1789
+            09
+            28
+        
+     id383 titleGlasgow Advertiser date
+            1789
+            09
+            28
+        
+     id384 titleGlasgow Advertiser date
+            1789
+            09
+            28
+        
+     id385 titleGlasgow Advertiser date
+            1789
+            11
+            27
+        
+     id386 titleGlasgow Advertiser date
+            1789
+            11
+            13
+        
+     id387 titleGlasgow Advertiser date
+            1789
+            09
+            07
+        
+     id388 titleGlasgow Advertiser date
+            1789
+            09
+            07
+        
+     id389 titleGlasgow Advertiser date
+            1789
+            01
+            01
+        
+     id390 titleGlasgow Advertiser date
+            1789
+            09
+            02
+        
+     id391 titleGlasgow Advertiser date
+            1789
+            09
+            23
+        
+     id392 titleGlasgow Advertiser date
+            1789
+            09
+            25
+        
+     id393 titleGlasgow Advertiser date
+            1789
+            09
+            25
+        
+     id394 titleGlasgow Advertiser date
+            1789
+            09
+            25
+        
+     id395 titleGlasgow Advertiser date
+            1789
+            09
+            21
+        
+     id396 titleGlasgow Advertiser date
+            1789
+            09
+            21
+        
+     id397 titleGlasgow Advertiser date
+            1790
+            11
+            19
+        
+     id398 titleGlasgow Advertiser date
+            1790
+            11
+            15
+        
+     id399 titleGlasgow Advertiser date
+            1792
+            08
+            13
+        
+     id400 titleGlasgow Advertiser date
+            1790
+            11
+            15
+        
+     id401 titleGlasgow Advertiser date
+            1790
+            11
+            12
+        
+     id402 titleGlasgow Advertiser date
+            1792
+            08
+            13
+        
+     id403 titleGlasgow Advertiser date
+            1790
+            11
+            08
+        

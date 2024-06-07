@@ -1,0 +1,13 @@
+<teaches>
+
+    <teaches-tuple>
+        <course>LMSXI</course>
+        <lecturer>Noemí Varela</lecturer>
+    </teaches-tuple>
+
+    <teaches-tuple>
+        <course>CD</course>
+        <lecturer>Sabela Sobrino</lecturer>
+    </teaches-tuple>
+
+</teaches>
