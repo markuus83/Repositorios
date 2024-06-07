@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<football_games>
+    <football_game>
+        <teams>
+
+            <team playing_home="Yes">
+                <team_name>Local Team</team_name>
+                <goals>
+                    <goal>
+                        <player_number>10</player_number>
+                        <normal_goal>Yes</normal_goal>
+                        <time>20:08</time>
+                    </goal>
+                    <goal>
+                        <player_number>7</player_number>
+                        <penalty>Yes</penalty>
+                        <time>45:00</time>
+                    </goal>
+                </goals>
+                <yellow_cards>
+                    <card>
+                        <player_number>4</player_number>
+                        <time>30:00</time>
+                    </card>
+                </yellow_cards>
+                <red_cards>
+                    <card>
+                        <player_number>9</player_number>
+                        <time>80:00</time>
+                    </card>
+                </red_cards>
+            </team>
+
+            <team playing_home="No">
+                <team_name>Away Team</team_name>
+                <goals>
+                    <goal>
+                        <player_number>5</player_number>
+                        <normal_goal>Yes</normal_goal>
+                        <time>15:00</time>
+                    </goal>
+                </goals>
+                <yellow_cards>
+                    <card>
+                        <player_number>8</player_number>
+                        <time>60:00</time>
+                    </card>
+                </yellow_cards>
+                <red_cards/>
+            </team>
+        </teams>
+    </football_game>
+</football_games>

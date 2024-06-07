@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE booklist SYSTEM "booklist.dtd">
+
+<booklist>
+    <book>
+        <bookname>Ola</bookname>
+        <author>Ola</author>
+        <price>Ola</price>
+        <homepage>Ola</homepage>
+    </book>
+
+    <book>
+        <author>Ola</author>
+        <author>Ola</author>
+        <price>Ola</price>
+        <homepage>Ola</homepage>
+    </book>
+
+    <book>
+        <bookname>Ola</bookname>
+        <author>Ola</author>
+        <homepage>Ola</homepage>
+    </book>
+
+    <book>
+        <bookname>Ola</bookname>
+        <bookname>Ola</bookname>
+        <author>Ola</author>
+        <price>Ola</price>
+        <homepage>Ola</homepage>
+    </book>
+</booklist>
