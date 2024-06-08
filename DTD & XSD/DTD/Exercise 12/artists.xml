@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE artists [
+    <!ELEMENT artists (artist+,album)>
+    <!ELEMENT artist EMPTY>
+    <!ATTLIST artist artistID ID #REQUIRED>
+    <!ELEMENT album EMPTY>
+    <!ATTLIST album name CDATA #REQUIRED>
+    <!ATTLIST album albumArtistID IDREF #REQUIRED>
+    <!ATTLIST album contributingArtistIDs IDREFS #REQUIRED>
+]>
+
+<artists>
+    <artist artistID="StickyMA"></artist>
+    <artist artistID="CTangana"></artist>
+    <album name="Las pegajosas aventuras de StickyMA" albumArtistID="StickyMA"
+        contributingArtistIDs="CTangana"></album>
+</artists>
