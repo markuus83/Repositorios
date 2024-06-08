@@ -1,51 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
 <!DOCTYPE bookDatabase [
+    <!-- General Entities -->
+    <!ENTITY xmlFundamentals "XML Fundamentals">
+    <!ENTITY elementDeclarations "Element Declarations">
+    <!ENTITY attributesDeclarations "Attributes Declarations">
+
+    <!-- Parameter Entities -->
+    <!ENTITY % authorElement "<!ELEMENT author (#PCDATA)>">
+    <!ENTITY % sectionElement "<!ELEMENT section (#PCDATA)>">
+    <!ENTITY % chapterElement "<!ELEMENT chapter (#PCDATA)><!ATTLIST chapter number CDATA #REQUIRED>">
+
+    <!-- Elements Declarations -->
     <!ELEMENT bookDatabase (book+)>
-    <!ELEMENT book (author+,content+,image?,newchapters?)>
-    <!ATTLIST book bookID NMTOKEN #REQUIRED>
-    <!ELEMENT author (#PCDATA)>
-    <!ELEMENT content (chapter,description)>
-    <!ELEMENT chapter (#PCDATA)>
-    <!ATTLIST chapter number NMTOKEN #REQUIRED>
-    <!ELEMENT description (section*,summary?)>
-    <!ELEMENT section (#PCDATA)>
-    <!ELEMENT summary (#PCDATA)>
+    <!ELEMENT book (author+, image?, content+, newchapters?)>
+    <!ATTLIST book bookID ID #REQUIRED>
+
+    %authorElement;
     <!ELEMENT image (#PCDATA)>
-    <!ELEMENT newchapters (chapter,description)>
+    <!ELEMENT content (chapter, description)>
+    %chapterElement;
+    <!ELEMENT description (section*, summary?)>
+    %sectionElement;
+    <!ELEMENT summary (#PCDATA)>
+
+    <!ELEMENT newchapters (chapter+, description?)>
 ]>
 
 <bookDatabase>
     <book bookID="ISBN-0-13-xxx">
         <author>Elliotte Rusty Harold</author>
         <content>
-
             <chapter number="1">XML Structure, Syntax</chapter>
             <description>
-                <section>XML Fundamentals</section>
+                <section>&xmlFundamentals;</section>
             </description>
         </content>
-
         <content>
             <chapter number="2">Document Type Definitions</chapter>
             <description>
-                <section>Element Declarations</section>
-                <section>Attributes Declarations</section>
+                <section>&elementDeclarations;</section>
+                <section>&attributesDeclarations;</section>
                 <summary>summary of the chapter 2</summary>
             </description>
         </content>
     </book>
-
     <book bookID="ISBN-0-586-xxx">
-
         <author>Ian Foster</author>
         <author>Carl Kesselman</author>
         <image>grid architecture</image>
-
         <content>
             <chapter number="1">Grids in Context</chapter>
             <description />
         </content>
-
         <newchapters>
             <chapter number="20">Network structure</chapter>
             <description>

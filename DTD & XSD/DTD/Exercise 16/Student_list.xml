@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE studentList [
+    <!ELEMENT studentList (student+)>
+    <!ELEMENT student (name, studyProgram, enrollmentYear, courses)>
+    <!ATTLIST student matriculationNumber CDATA #REQUIRED>
+
+    <!ELEMENT name (firstName, middleName?, lastName)>
+    <!ELEMENT firstName (#PCDATA)>
+    <!ELEMENT middleName (#PCDATA)>
+    <!ELEMENT lastName (#PCDATA)>
+
+    <!ELEMENT studyProgram (#PCDATA)>
+    <!ELEMENT enrollmentYear (#PCDATA)>
+
+    <!ELEMENT courses (course+)>
+    <!ELEMENT course (title, courseType, mandatory, courseWorkMark?, exam)>
+
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT courseType (#PCDATA)>
+    <!ELEMENT mandatory (#PCDATA)>
+    <!ELEMENT courseWorkMark (#PCDATA)>
+
+    <!ELEMENT exam (taken, outcome?)>
+    <!ELEMENT taken (#PCDATA)>
+    <!ELEMENT outcome (#PCDATA)>
+
+    <!ENTITY BSc_CS "BSc in CS and Engineering">
+    <!ENTITY BSc_AppliedCS "BSc in Applied CS">
+    <!ENTITY MSc_CS "Master in CS">
+    <!ENTITY PhD_CS "PhD in CS">
+]>
+
+
+<studentList>
+
+    <student matriculationNumber="123456">
+        <name>
+            <firstName>John</firstName>
+            <middleName>William</middleName>
+            <lastName>Doe</lastName>
+        </name>
+
+        <studyProgram>BSc in CS and Engineering</studyProgram>
+        <enrollmentYear>2021</enrollmentYear>
+        <courses>
+
+            <course>
+                <title>Introduction to Programming</title>
+                <courseType>Undergraduate</courseType>
+                <mandatory>true</mandatory>
+                <courseWorkMark>85</courseWorkMark>
+
+                <exam>
+                    <taken>true</taken>
+                    <outcome>Pass</outcome>
+                </exam>
+            </course>
+
+            <course>
+                <title>Advanced Algorithms</title>
+                <courseType>Both</courseType>
+                <mandatory>false</mandatory>
+                <courseWorkMark>92</courseWorkMark>
+
+                <exam>
+                    <taken>false</taken>
+                </exam>
+            </course>
+        </courses>
+    </student>
+
+    <student matriculationNumber="789012">
+
+        <name>
+            <firstName>Jane</firstName>
+            <lastName>Smith</lastName>
+        </name>
+
+        <studyProgram>Master in CS</studyProgram>
+        <enrollmentYear>2022</enrollmentYear>
+
+        <courses>
+
+            <course>
+                <title>Machine Learning</title>
+                <courseType>Postgraduate</courseType>
+                <mandatory>true</mandatory>
+
+                <exam>
+                    <taken>true</taken>
+                    <outcome>Pass with Distinction</outcome>
+                </exam>
+            </course>
+
+            <course>
+                <title>Data Science</title>
+                <courseType>Both</courseType>
+                <mandatory>false</mandatory>
+                <courseWorkMark>78</courseWorkMark>
+
+                <exam>
+                    <taken>true</taken>
+                    <outcome>Pass</outcome>
+                </exam>
+            </course>
+        </courses>
+    </student>
+</studentList>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE order [
+    <!ELEMENT order (tractor+)>
+    <!ELEMENT tractor (component+)>
+    <!ELEMENT component (weight,serialNumber?,maxKm?)>
+    <!ATTLIST component manufacturer_name CDATA #REQUIRED>
+    <!ATTLIST component fragile NMTOKEN #REQUIRED>
+    <!ATTLIST component deliveryDate NMTOKEN #IMPLIED>
+    <!ELEMENT weight (#PCDATA)>
+    <!ATTLIST weight unit NMTOKEN #REQUIRED>
+    <!ELEMENT serialNumber (#PCDATA)>
+    <!ELEMENT maxKm (#PCDATA)>
+]>
+
+<order>
+    <tractor>
+        <component manufacturer_name="ABC Corp" fragile="true" deliveryDate="2024-06-08">
+            <weight unit="kilos">50.5</weight>
+            <serialNumber>12345-67890</serialNumber>
+            <maxKm>100000</maxKm>
+        </component>
+
+        <component manufacturer_name="XYZ Inc" fragile="false">
+            <weight unit="grams">250</weight>
+        </component>
+    </tractor>
+
+    <tractor>
+        <component manufacturer_name="LMN Ltd" fragile="true" deliveryDate="2023-12">
+            <weight unit="kilos">75.0</weight>
+            <serialNumber>98765-43210</serialNumber>
+        </component>
+
+        <component manufacturer_name="OPQ Enterprises" fragile="false" deliveryDate="2024-01-15">
+            <weight unit="kilos">30.0</weight>
+            <maxKm>50000</maxKm>
+        </component>
+    </tractor>
+</order>
