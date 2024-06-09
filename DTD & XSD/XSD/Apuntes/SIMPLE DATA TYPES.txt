@@ -1,0 +1,251 @@
+
+
+
+   1. XML SCHEMA CONSTRUCTION BASICS:
+
+	a) Data Types:
+
+	   - simpleData --> Basics pieces of information
+
+	   - complexData --> More involved information, such as mixed elements and secuences of elements.
+
+
+
+   2. SIMPLE DATA TYPES
+
+	   - <xs:element name="x" type="y">
+
+**************************************** EXAMPLE **************************************** 
+
+		<xs:element name="customer_dob" type="xs:date"/>
+		<customer_dob> 2002-01-12T12:13:14Z </customer_dob>
+
+
+	   - <xs:attribute name="p" type"q">
+
+**************************************** EXAMPLE **************************************** 
+
+		<xs:attribute name="weight" type="xs:integer"/>
+
+
+
+	   1. The String type:
+
+		- <xs:element name="name" type="xs:string>
+
+**************************************** EXAMPLE **************************************** 
+
+  		   <name> Fabio Tesouro </name>
+
+
+
+	   2. The Boolean type:
+
+	      - <xs:attribute name="retired" type:"xs:boolean"/>
+
+**************************************** EXAMPLE **************************************** 
+
+		   <person retired="false">
+			<name> Manuel Reixa </name>		   
+		   <person>
+
+
+
+	   3. Number types:
+
+		- Integer --> Numbers with no fractional part => 3
+
+		- Decimal --> Decimal number with fractional part => 3'14
+
+		- Float --> Single precision (32-bits) floating-point numbers => 6.022E23
+
+		- Double --> Same as Float but with 64-bits.
+
+
+
+	   4. Date and time types:
+
+		- Time --> A time of day => 4:30 a.m.
+
+		- TimeInstant --> An instant in time => 4:30 a.m.on August 29, 1970
+
+		- Duration --> A lenght of time => 3 hours and 15 minutes
+
+		- Date -->  A day in time => August 29, 1970
+
+		- DateTime --> Represent a date and time in format => ccyy-mm-ddThh:mm:ss
+
+		- GDay --> Represent a part of a date as the day => dd
+
+		- GMonth --> Represent a part of a date as the month => mm
+
+		- GYear --> Represent a part of a date as the year => yyyy
+
+		- Century --> A century => 20th century
+
+		- RecurringDate --> A date without regard for the year => August 29
+
+		- Recurring --> A day of the month without regard for the month on year => 29th of the month
+
+
+
+	   5. Custom types:
+
+		- General structure of a simpleType:
+
+**************************************** EXAMPLE **************************************** 
+
+		   <xs:simpleType name="onetotenType">
+			<xs:restriction base="xs:integer/>
+		   <xs:simpleType name="onetotenType">
+
+		- Diferent type of elements:
+
+		   · MinInclusive => Minimun number allowed.
+
+		   · MinExclusive => One less than the minimum number allowed.
+
+		   · MaxInclusive => The maximum number allowed.
+
+		   · MaxExclusive => One greater than the maximum number allowed.
+
+
+**************************************** EXAMPLE **************************************** 
+
+			<xs:element name="rating">
+			   <xs:simpleType>
+
+				<xs:restriction base="xs:integer>
+				   <xs:minInclusive value="1"/>
+				   <xs:maxInclusive value="10"/>
+				</xs:restriction>
+
+			   </xs:simpleType>
+			</xs:element>
+
+
+		   · Lenght => The exact number of characters.
+
+		   · MinLenght => The minimum number of characters.
+
+		   · MaxLenght => The maximum number of characters.
+
+**************************************** EXAMPLE **************************************** 		
+
+			<xs:element name="password">
+			   <xs:simpleType>
+
+				<xs:restriction base="xs:string>
+				   <xs:minLenght value="8"/>
+				   <xs:maxLenght value="12"/>
+				</xs:restriction>
+
+			   </xs:simpleType>
+			</xs:element>
+
+	/* Con este código, la contraseña creada tendrá un mínimo de 8 caracteres, y un máximo de 12 */
+
+
+		   · totalDigits => Determines how many total digits are allowed in a number
+
+		   · fractionDigits => Determines how many of those digits appear to the right of the decimal point.
+
+**************************************** EXAMPLE **************************************** 
+
+			<xs:element name="balance">
+			   <xs:simpleType>
+
+				<xs:restriction base="xs:decimal>
+				   <xs:totalDigits value="6"/>
+				   <xs:fractionDigits value="2"/>
+				</xs:restriction>
+
+			   </xs:simpleType>
+			</xs:element>
+
+**************************************** EXAMPLE **************************************** 
+
+				<balance> 3.14 </balance>
+				<balance> 12.95 </balance>
+				<balance> 1.1 </balance>
+				<balance> 524.78 </balance>
+
+
+		   · default => Value that is assumed with the attribute.
+
+		   · fixed => Value that is limited so that can have only one possible value. 
+
+**************************************** EXAMPLE **************************************** 
+
+			<xs:element name="balance" type="xs:decimal" default="0.0"/>
+			<xs:element name="pi" type="xs:decimal" fixed="3.14"/>
+			<xs:attribute name="expired" type="xs:boolean" default="false"/>
+			<xs:attribute name="title" type="xs:string" fixed"Mr."/>
+
+
+
+		   · Enumerated Types => Used to constraint the set of possible values for a simple type; it can be applied.
+
+**************************************** EXAMPLE **************************************** 
+
+			<xs:element name="colour">
+			   <xs:simpleType>
+				<xs:restriction base="xs:string">
+				   <xs:enumeration value="red"/>
+				   <xs:enumeration value="green"/>
+				   <xs:enumeration value="blue"/>
+				   <xs:enumeration value="yellow"/>
+				</xs:restriction>
+			   </xs:simpleType>
+			</xs:element>
+
+
+		   · List types => Used to crate list, wich is used to allow for a list od information. 
+
+**************************************** EXAMPLE **************************************** 
+
+			<xs:element name="rainfall">
+			   <xs:simpleType>
+				<xs:list itemType="xs:decimal">
+				   <xs:lenght value="12"/>
+				</xs:list>
+			   </xs:simpleType>
+			</xs:element>
+
+/* Este código te permite hacer una lista de exactamente 12 números decimales separados por un espacio en blanco*/
+
+
+**************************************** OUTPUT **************************************** 
+
+			<rainfall> 1.25 2.0 3.0 4.25 3.75 1.5 0.25 0.75 1.25 1.75 2.0 2.25 </rainfall>
+
+
+		- Patternded Types: Trickiest of all custom types. A regular expression is a coded pattern using a especial languaje :
+
+		   · x* => Any number of 'x'.
+
+		   · (xy) => Groups 'x' and 'y' together.
+
+		   · x | y => 'x' or 'y'.
+
+		   · [xyz] => One of 'x', 'y' or 'z'.
+
+		   · [x-y] => Int he range 'x' to 'y'.
+
+		   · x{n} => 'n' number of 'x' in a row.
+
+		   · x{n,m} => At least 'n' number of 'x' but no more than 'm'.
+
+**************************************** EXAMPLE **************************************** 
+
+			<xs:simpleType name="ProductNumberType">
+			   <xs:restriction base="xs:string">
+				<xs:pattern value="\d{3} - [A-Z]{2} | \d{7}"/>
+			   </xs:restriction>
+			</xs:simpleType>
+
+**************************************** OUTPUT **************************************** 
+
+			1. <ProductNumberType> 123-AB </ProductNumberType>
+
+			2. <ProductNumberType> 1234567 </ProductNumberType>

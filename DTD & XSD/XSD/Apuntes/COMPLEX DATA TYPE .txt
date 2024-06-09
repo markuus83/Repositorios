@@ -1,0 +1,123 @@
+
+						COMPLEX DATA TYPE
+
+
+   This elements includes an attribute named name that is used to name a complex type. Complex types can be broken down into:
+
+	a) Empty elements.
+
+	b) Element-only elements.
+
+	c) Mixed elements.
+
+	d) Sequences and choices.
+
+
+   1. EMPTY ELEMENTS:
+
+	Contain no text content or child elements, but are capable of having attributes. In fact, attributes are the only way to associate information.
+
+**************************************** EXAMPLE **************************************** 
+
+	<xs:element name="automobile">
+	   <xs:complexType>
+		<xs:attribute name="year" type="xs:year"/>
+		<xs:attribute name="make" type="xs:string"/>
+		<xs:attribute name="model" type="xs:string"/>
+	   </xs:complexType>
+	</xs:element>
+
+**************************************** OUTPUT **************************************** 
+
+	<automobile year="1995" make="Land Rover" model="Range Rover"/>
+
+
+
+   2. ELEMENT-ONLY ELEMENTS:
+
+	Elements that contain only child elements with no text content. They can contain attributes. To create it, you simply use the complexType element.
+
+**************************************** EXAMPLE_1 **************************************** 
+
+	<xs:element name="assets">
+	   <xs:complexType>
+		<xs:element name="automobile" type="automobileType"/>
+	   </xs:complexType>
+	</xs:element name="assets">
+
+
+**************************************** EXAMPLE_2 **************************************** 
+
+	<xs:complexType name="automobileType">
+	   <xs:attribute name="year" type="xs:year"/>
+	   <xs:attribute name="make" type="xs:string"/>
+	   <xs:attribute name="model" type="xs:string"/>
+
+**************************************** OUTPUT **************************************** 
+
+	<assets>
+	   <automobile year="1995" make="Land Rover" model="Range Rover"/>
+	</assets>
+
+
+   3. MIXED ELEMENTS
+
+	Elements that containt both text and child elements and are the most flexible of all elements. Text-only are considered a type of mixed element and can contain only text with no child elements.
+
+	a) Text-only complex type:
+
+**************************************** EXAMPLE **************************************** 
+	
+	<xs:element name="distance">
+	   <xs:complexType>
+		<xs:simpleContent>
+		   <xs:extension base="xs:decimal">
+			<xs:attribute name="units" type"xs:string" use="required"/>
+		   </xs:extension>
+		</xs:simpleContent>
+	   </xs:complexType>
+	</xs:element>
+	
+**************************************** OUTPUT **************************************** 
+
+	<distance units="metres"> 12.5 </distance>
+
+
+	b) Mixed elements are created similarly to other complex types, but with the adittion of the mixed attribute.
+
+**************************************** EXAMPLE **************************************** 
+
+	<xs:element name="message">
+	   <xs:complexType mixed="true">
+
+		<xs:sequence>
+		   <xs:element name="emph" type="xs:string"/>
+		</xs:sequence>
+
+		<xs:attribute name="to" type="xs:string" use="required"/>
+		<xs:attribute name="from" type="xs:string" use="required"/>
+		<xs:attribute name="timestamp" type="xs:timeInstant" use="required"/>
+
+	   </xs:complexType>
+	</xs:element>
+
+**************************************** OUTPUT **************************************** 
+
+	<message to="you" from="me" timestamp="2023-02-14T12:45:00">
+	   I hope you rwturn soon. I've <emph> really </emph> missed you!
+	</message>
+
+
+   4. SEQUENCES AND CHOICES:
+
+	
+
+
+
+
+
+
+
+
+
+
