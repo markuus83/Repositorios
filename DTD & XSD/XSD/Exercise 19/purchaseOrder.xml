@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<purchaseOrder orderDate="">
+<purchaseOrder orderDate="2024-06-01">
 
     <shipTo country="US">
-        <name></name> <!-- type: "xsd:string" -->
-        <street></street> <!-- type: "xsd:string" -->
-        <city></city> <!-- type: "xsd:string" -->
-        <state></state> <!-- type: "xsd:string" -->
-        <zip></zip> <!-- type: "xsd:decimal" -->
+        <name>maricon</name> <!-- type: "xsd:string" -->
+        <street>maricon</street> <!-- type: "xsd:string" -->
+        <city>maricon</city> <!-- type: "xsd:string" -->
+        <state>maricon</state> <!-- type: "xsd:string" -->
+        <zip>20.15</zip> <!-- type: "xsd:decimal" -->
     </shipTo>
 
     <billTo country="US">
-        <name></name> <!-- type: "xsd:string" -->
-        <street></street> <!-- type: "xsd:string" -->
-        <city></city> <!-- type: "xsd:string" -->
-        <state></state> <!-- type: "xsd:string" -->
-        <zip></zip> <!-- type: "xsd:decimal" -->
+        <name>maricon</name> <!-- type: "xsd:string" -->
+        <street>maricon</street> <!-- type: "xsd:string" -->
+        <city>maricon</city> <!-- type: "xsd:string" -->
+        <state>maricon</state> <!-- type: "xsd:string" -->
+        <zip>10.20</zip> <!-- type: "xsd:decimal" -->
     </billTo>
 
-    <comment></comment> <!-- type: "xsd:string", opcional -->
+    <comment>maricon</comment> <!-- type: "xsd:string", opcional -->
 
     <items>
-        <item partNum=""> <!-- type: "SKU" (pattern "\d{3}-[A-Z]{2}"), atributo requerido -->
-            <productName></productName> <!-- type: "xsd:string" -->
-            <quantity></quantity> <!-- type: "xsd:positiveInteger" -->
-            <USPrice></USPrice> <!-- type: "xsd:decimal" -->
-            <comment></comment> <!-- type: "xsd:string", opcional -->
-            <shipDate></shipDate> <!-- type: "xsd:date", opcional -->
+        <item partNum="123-AB"> <!-- type: "SKU" (pattern "\d{3}-[A-Z]{2}"), atributo requerido -->
+            <productName>maricon</productName> <!-- type: "xsd:string" -->
+            <quantity>42</quantity> <!-- type: "xsd:positiveInteger" -->
+            <USPrice>100.85</USPrice> <!-- type: "xsd:decimal" -->
+            <shipDate>2015-10-15</shipDate> <!-- type: "xsd:date", opcional -->
         </item>
-
     </items>
 
 </purchaseOrder>

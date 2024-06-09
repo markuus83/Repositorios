@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="durationType"> <!-- 1 -->
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="300" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="numberType"> <!-- 2 -->
+        <xs:restriction base="xs:string">
+            <xs:length value="3" />
+            <xs:pattern value="_0[1-4]" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="monthType"> <!-- 3 -->
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Enero" />
+            <xs:enumeration value="Febrero" />
+            <xs:enumeration value="Marzo" />
+            <xs:enumeration value="Abril" />
+            <xs:enumeration value="Mayo" />
+            <xs:enumeration value="Junio" />
+            <xs:enumeration value="Julio" />
+            <xs:enumeration value="Agosto" />
+            <xs:enumeration value="Septiembre" />
+            <xs:enumeration value="Octubre" />
+            <xs:enumeration value="Noviembre" />
+            <xs:enumeration value="Diciembre" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="bond_movies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="movie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string" />
+                            <xs:element name="bond" type="xs:string" />
+                            <xs:element name="bond_girl" type="xs:string" />
+                            <xs:element name="regie" type="xs:string" />
+                            <xs:element name="year" type="xs:gYear" />
+                            <xs:element name="duration" type="durationType" /> <!-- 1.1 -->
+                        </xs:sequence>
+                        <xs:attribute name="number" type="numberType" use="required" /> <!-- 2.1 -->
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="month" type="monthType" use="required" /> <!-- 3.1 -->
+            <xs:attribute name="year" type="xs:integer" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+<!-- 
+Las etiquetas previamente puestas, nos indican que dichas partes del documento .xsd utilizan el
+'type' exterior donde se especifican los valores que se pueden tomar.
+-->

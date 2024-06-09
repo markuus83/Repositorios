@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="juicers.xsd">
+
+    <juicer>
+        <name>Maricon</name>
+        <image>C\Users\JohnDoe\Pictures\image1.png</image>
+        <description>Maricon</description>
+        <warranty>4</warranty>
+        <weight>140.05</weight>
+        <cost>1.2</cost>
+        <retailer>Maricon</retailer>
+    </juicer>
+
+    <juicer>
+        <name>Maricon</name>
+        <image>C\Users\Jane_Doe\Photos\vacation.jpg</image>
+        <description>Maricon</description>
+        <cost>1000.99</cost>
+        <cost>40.50</cost>
+        <retailer>Maricon</retailer>
+    </juicer>
+</juicers>
