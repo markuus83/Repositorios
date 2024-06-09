@@ -18,6 +18,9 @@
 **************************************** EXAMPLE **************************************** 
 
 		<xs:element name="customer_dob" type="xs:date"/>
+
+		· Corresponding XML:
+
 		<customer_dob> 2002-01-12T12:13:14Z </customer_dob>
 
 
@@ -67,7 +70,7 @@
 
 		- Time --> A time of day => 4:30 a.m.
 
-		- TimeInstant --> An instant in time => 4:30 a.m.on August 29, 1970
+		- TimeInstant --> An instant in time => 4:30 a.m. on August 29, 1970
 
 		- Duration --> A lenght of time => 3 hours and 15 minutes
 

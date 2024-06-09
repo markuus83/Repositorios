@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<shiporder orderid="maricon">
+    <orderperson>Marcos</orderperson>
+
+    <shipto>
+        <name>maricon</name>
+        <address>maricon</address>
+        <city>maricon</city>
+        <country>maricon</country>
+    </shipto>
+
+    <item>
+        <title>maricon</title>
+        <note>maricon</note>
+        <quantity>4</quantity>
+        <price>12.06</price>
+    </item>
+    <item>
+        <title>maricon</title>
+        <note>maricon</note>
+        <quantity>2</quantity>
+        <price>10.00</price>
+    </item>
+</shiporder>
