@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<youtube xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="youtube.xsd">
+    <videos>
+        <video>XSD Overview <url>https://www.youtube.com/watch?v=PpvX3izvRWU</url>
+			<views>112000</views>
+
+			<comments>
+                <good>1200</good>
+                <bad>700</bad>
+            </comments>
+
+			<subscribers>
+                <subscriber code="15-[AR]-56">
+                    <subscriptionDate day="12" month="february" year="2023" />
+                    <comments quantity="12" />
+                    <email completo="rafa@gmail.com">
+                        <user>rafa</user>
+                        <server>
+                            <gmail />
+                        </server>
+                    </email>
+                    <language>Korean</language>
+                </subscriber>
+            </subscribers>
+        </video>
+    </videos>
+
+    <advertisement>
+        <ad>
+            <company>Seresco</company>
+            <bannersPerMinute>40000</bannersPerMinute>
+        </ad>
+
+        <sponsoredAd sponsor="Google">
+            <company>Gadis</company>
+            <bannersPerMinute>15000</bannersPerMinute>
+            <youTubeDiscount>23%</youTubeDiscount>
+        </sponsoredAd>
+
+    </advertisement>
+    <availableLanguages>French Italian German English Chinese Korean Japanese</availableLanguages>
+</youtube>
+
+<!-- 
+
+1. The subscriptionDate and comments elements must be empty elements.
+
+2. The video elements must be of mixed content.
+
+3. The subscriber code attribute must comply with the following rules: two numbers, one - character
+and one [, two capital letters, one ] character, one - character and two numbers.
+
+4. The server elements must have only one of the following children: gmail. hotmail or
+iessanclemente.net.
+
+5. The year attribute must have a number between 2020 and 2023.
+
+6. The value of the availableLanguages element must take its value from the following list of
+values:
+French, Italian, German, English, Chinese, Korean and Japanese. Use a list.
+
+7. The content of the views elements must have a minimum value of 0 and a maximum value of
+100000000.
+The content of good elements must be of a type that extends the type of the views element but must
+fall between 0 and 200000.
+
+-->
