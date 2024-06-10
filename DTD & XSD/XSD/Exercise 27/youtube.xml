@@ -51,7 +51,7 @@
 3. The subscriber code attribute must comply with the following rules: two numbers, one - character
 and one [, two capital letters, one ] character, one - character and two numbers.
 
-4. The server elements must have only one of the following children: gmail. hotmail or
+4. The server elements must have only one of the following children: gmail, hotmail or
 iessanclemente.net.
 
 5. The year attribute must have a number between 2020 and 2023.

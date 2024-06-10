@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Definición de tipos y restricciones adicionales -->
 
-    <!-- Restricción DEL SUBSCRIBERCODETYPE -->
+    <!-- Restricción para el código de suscriptor -->
     <xs:simpleType name="subscriberCodeType">
         <xs:restriction base="xs:string">
             <xs:pattern value="\d{2}-\[\p{Lu}{2}\]-\d{2}" />
         </xs:restriction>
     </xs:simpleType>
 
-    <!-- Restricción del YEAR-->
+    <!-- Restricción para el año de suscripción -->
     <xs:simpleType name="yearType">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="2020" />
@@ -16,7 +17,12 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <!-- Restricción para el posible IDIOMA -->
+    <!-- Restricción para availableLanguages como lista -->
+    <xs:simpleType name="availableLanguagesType">
+        <xs:list itemType="languageType" />
+    </xs:simpleType>
+
+    <!-- Restricción para el idioma disponible -->
     <xs:simpleType name="languageType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="French" />
@@ -29,13 +35,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <!-- Restringimos AVAILABLELANGUAGES como una LISTA -->
-    <xs:simpleType name="availableLanguagesType">
-        <xs:list itemType="languageType" />
-    </xs:simpleType>
-
-
-    <!-- Restricción para las VIEWS -->
+    <!-- Restricción para views -->
     <xs:simpleType name="viewsType">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="0" />
@@ -43,7 +43,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <!-- Restricción para GOOD -->
+    <!-- Restricción para good -->
     <xs:simpleType name="goodType">
         <xs:restriction base="viewsType">
             <xs:minInclusive value="0" />
@@ -51,7 +51,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <!-- Restricción para el SERVERELEMENT -->
+    <!-- Restricción para el elemento server -->
     <xs:element name="server">
         <xs:complexType>
             <xs:choice>
@@ -62,7 +62,7 @@
         </xs:complexType>
     </xs:element>
 
-    <!-- **************************** SCHEMA PRINCIPAL **************************** -->
+    <!-- Esquema principal -->
     <xs:element name="youtube">
         <xs:complexType>
             <xs:sequence>
@@ -70,19 +70,18 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="video" maxOccurs="unbounded">
+                                <!-- Cambio: Añadido mixed="true" para contenido mixto -->
                                 <xs:complexType mixed="true">
                                     <xs:sequence>
                                         <xs:element name="url" type="xs:string" />
-
-                                        <!-- cambio del TYPE a VIEWS.TYPE -->
+                                        <!-- Cambio: Tipo de views modificado a viewsType -->
                                         <xs:element name="views" type="viewsType" />
                                         <xs:element name="comments">
                                             <xs:complexType>
                                                 <xs:sequence>
-
-                                                    <!-- cambio del TYPE a GOOD.TYPE -->
+                                                    <!-- Cambio: Tipo de good modificado a goodType -->
                                                     <xs:element name="good" type="goodType" />
-                                                    <xs:element name="bad" type="xs:string" />
+                                                    <xs:element name="bad" type="xs:integer" />
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
@@ -93,8 +92,8 @@
                                                         maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
-
-                                                                <!-- cambio del TYPE a SUBSCRIPTION.DATE -->
+                                                                <!-- Cambio: subscriptionDate
+                                                                definido con tipo y restricciones -->
                                                                 <xs:element name="subscriptionDate">
                                                                     <xs:complexType>
                                                                         <xs:attribute name="day"
@@ -108,8 +107,8 @@
                                                                             use="required" />
                                                                     </xs:complexType>
                                                                 </xs:element>
-
-                                                                <!-- cambio del COMMENTS -->
+                                                                <!-- Cambio: comments definido con
+                                                                atributos -->
                                                                 <xs:element name="comments">
                                                                     <xs:complexType>
                                                                         <xs:attribute
@@ -123,13 +122,10 @@
                                                                         <xs:sequence>
                                                                             <xs:element name="user"
                                                                                 type="xs:string" />
-
-                                                                            <!-- cambio del SERVER
-                                                                            para poder  elegir gmail,
-                                                                            hotmail o
-                                                                            iessanclemente.net -->
-                                                                            <xs:element ref="server">
-                                                                            </xs:element>
+                                                                            <!-- Cambio: Definido el
+                                                                            elemento server con
+                                                                            elección de hijos -->
+                                                                            <xs:element ref="server" />
                                                                         </xs:sequence>
                                                                         <xs:attribute
                                                                             name="completo"
@@ -140,8 +136,8 @@
                                                                 <xs:element name="language"
                                                                     type="xs:string" />
                                                             </xs:sequence>
-
-                                                            <!-- cambio del TYPE a SUBSCRIBER.CODE.TYPE -->
+                                                            <!-- Cambio: Tipo de atributo code
+                                                            modificado a subscriberCodeType -->
                                                             <xs:attribute name="code"
                                                                 type="subscriberCodeType"
                                                                 use="required" />
@@ -159,11 +155,11 @@
                 <xs:element name="advertisement">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="ad">
+                            <xs:element name="ad" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="company" type="xs:string" />
-                                        <xs:element name="bannersPerMinute" type="xs:string" />
+                                        <xs:element name="bannersPerMinute" type="xs:integer" />
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
@@ -180,8 +176,7 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
-
-                <!-- Ccambio del availableLanguages a AVAILABLE.LANGUAGES.TYPE -->
+                <!-- Cambio: Tipo de availableLanguages modificado a availableLanguagesType -->
                 <xs:element name="availableLanguages" type="availableLanguagesType" />
             </xs:sequence>
         </xs:complexType>
