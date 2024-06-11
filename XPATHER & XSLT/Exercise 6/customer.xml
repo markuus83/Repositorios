@@ -1,11 +1,12 @@
-<customer>
+<?xml version="1.0" encoding="UTF-8"?>
 
+<customer id="id_12345567">
     <name>
         <first>Sherlock</first>
         <middle></middle>
         <last>Holmes</last>
     </name>
-
+    
     <address>
         <street>221b Baker Street</street>
         <city>London</city>
@@ -13,5 +14,4 @@
         <country>England</country>
         <postalcode>W1U</postalcode>
     </address>
-    
 </customer>
