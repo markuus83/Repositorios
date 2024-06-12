@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Books Colours</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th {
+        background-color: dodgerblue;
+        color: white;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      .price-low {
+        background-color: aquamarine;
+      }
+      .price-medium {
+        background-color: gold;
+      }
+      .price-high {
+        background-color: crimson;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Number of rows: 3
+      </caption>
+      <tr>
+        <th>Author</th>
+        <th>Title</th>
+      </tr>
+      <tr class="price-low">
+        <td>Eduardo Blanco-Amor</td>
+        <td>A esmorga</td>
+      </tr>
+      <tr class="price-medium">
+        <td>Alfonso Daniel R. Castelao</td>
+        <td>Cousas</td>
+      </tr>
+      <tr class="price-high">
+        <td>Suso de Toro</td>
+        <td>Trece badaladas</td>
+      </tr>
+    </table>
+  </body>
+</html>
