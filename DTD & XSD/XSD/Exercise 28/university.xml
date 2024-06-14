@@ -1,98 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<University xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<university xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="university.xsd">
-    <School SchoolID="S001">
-        <Name>School of Engineering</Name>
-        <Location>North Campus</Location>
+    <schools>
+        <school id="1">
+            <name>Maricon</name>
+            <location>Maricon</location>
 
-        <Staff>
+            <staff id="A">
+                <name>Maricon</name>
+                <title></title>
+                <category>general</category>
+                <address>
+                    <street>Maricon</street>
+                    <suburb>Maricon</suburb>
+                    <postcode>15701</postcode>
+                </address>
 
-            <StaffMember>
-                <StaffID>ST001</StaffID>
-                <Name>John Doe</Name>
-                <Title>Professor</Title>
-                <Category>academic</Category>
-                <Addresses>
+                <address>
+                    <street>Maricon</street>
+                    <suburb>Maricon</suburb>
+                    <postcode>15702</postcode>
+                </address>
+            </staff>
 
-                    <Address>
-                        <Street>123 Main St</Street>
-                        <Suburb>Springfield</Suburb>
-                        <Postcode>12345</Postcode>
-                    </Address>
+            <staff id="B">
+                <name>Maricon</name>
+                <title></title>
+                <category>general</category>
+                <address>
+                    <street>Maricon</street>
+                    <suburb>Maricon</suburb>
+                    <postcode>15703</postcode>
+                </address>
+            </staff>
 
-                    <Address>
-                        <Street>456 Elm St</Street>
-                        <Suburb>Downtown</Suburb>
-                        <Postcode>67890</Postcode>
-                    </Address>
-                </Addresses>
+            <subjects>
+                <subject id="A01">
+                    <name>Maricon</name>
+                    <description>Maricon</description>
+                    <capacity>Maricon</capacity>
+                    <taughBy>Maricon</taughBy>
+                </subject>
+            </subjects>
+        </school>
 
-            </StaffMember>
+        <school id="2">
+            <name>Maricon</name>
+            <location>Maricon</location>
 
-            <StaffMember>
-                <StaffID>ST002</StaffID>
-                <Name>Jane Smith</Name>
-                <Category>general</Category>
-                <Addresses>
+            <staff id="C">
+                <name>Maricon</name>
+                <title></title>
+                <category>general</category>
 
-                    <Address>
-                        <Street>789 Oak St</Street>
-                        <Suburb>Suburbia</Suburb>
-                        <Postcode>54321</Postcode>
-                    </Address>
-                </Addresses>
-            </StaffMember>
-        </Staff>
+                <address>
+                    <street>Maricon</street>
+                    <suburb>Maricon</suburb>
+                    <postcode>15704</postcode>
+                </address>
+            </staff>
 
-        <Subjects>
+            <subjects>
+                <subject id="A02">
+                    <name>Maricon</name>
+                    <description>Maricon</description>
+                    <capacity>6</capacity>
+                    <taughBy>Maricon</taughBy>
+                </subject>
 
-            <Subject>
-                <SubjectCode>SUB001</SubjectCode>
-                <Name>Introduction to Engineering</Name>
-                <Description>Basic engineering principles</Description>
-                <Capacity>150</Capacity>
-                <TaughtBy>ST001</TaughtBy>
-            </Subject>
-
-            <Subject>
-                <SubjectCode>SUB002</SubjectCode>
-                <Name>Advanced Mechanics</Name>
-                <Description>In-depth study of mechanics</Description>
-                <Capacity>80</Capacity>
-                <TaughtBy>ST001 ST002</TaughtBy>
-            </Subject>
-        </Subjects>
-    </School>
-
-    <School SchoolID="S002">
-        <Name>School of Arts</Name>
-        <Location>South Campus</Location>
-        <Staff>
-
-            <StaffMember>
-                <StaffID>ST003</StaffID>
-                <Name>Alice Johnson</Name>
-                <Title>Lecturer</Title>
-                <Category>academic</Category>
-                <Addresses>
-
-                    <Address>
-                        <Street>321 Maple St</Street>
-                        <Suburb>Artstown</Suburb>
-                        <Postcode>98765</Postcode>
-                    </Address>
-                </Addresses>
-            </StaffMember>
-        </Staff>
-
-        <Subjects>
-            <Subject>
-                <SubjectCode>SUB003</SubjectCode>
-                <Name>Art History</Name>
-                <Description>History of art from ancient to modern times</Description>
-                <Capacity>200</Capacity>
-                <TaughtBy>ST003</TaughtBy>
-            </Subject>
-        </Subjects>
-    </School>
-</University>
+                <subject id="A03">
+                    <name>Maricon</name>
+                    <description>Maricon</description>
+                    <capacity>6</capacity>
+                    <taughBy>Maricon</taughBy>
+                </subject>
+            </subjects>
+        </school>
+    </schools>
+</university>

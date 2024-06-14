@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="items.xsd">
+ xsi:noNamespaceSchemaLocation="items.xsd">
     <item>
         <name>Maricon</name>
         <photo>Maricon</photo>
         <tags>Maricon</tags>
         <diameter>2</diameter>
         <weight>3</weight>
-        <price>4.0</price>
+        <price>4.02</price>
         <sizeField>Big</sizeField>
     </item>
 
@@ -18,7 +18,7 @@
         <tags>Maricon</tags>
         <diameter>2</diameter>
         <weight>3</weight>
-        <price>4.0</price>
+        <price>4.01</price>
         <sizeField>Small</sizeField>
     </item>
 
@@ -28,7 +28,7 @@
         <tags>Maricon</tags>
         <diameter>2</diameter>
         <weight>3</weight>
-        <price>4.0</price>
+        <price>4.07</price>
         <sizeField></sizeField>
     </item>
 </items>

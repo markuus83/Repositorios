@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 
 <bond_movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="bond_movies.xsd" month="Agosto" year="2013">
+    xsi:noNamespaceSchemaLocation="bond_movies.xsd" month="August" year="2013">
 
     <movie number="_01">
         <title>Dr. No</title>
